@@ -14,9 +14,11 @@
     "components": "@/components",
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
+    "layout": "@/components/layout",
     "lib": "@/lib",
     "hooks": "@/hooks",
     "styles": "@/styles"
+    
   },
   "iconLibrary": "lucide"
 }
