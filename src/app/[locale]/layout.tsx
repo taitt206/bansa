@@ -1,11 +1,18 @@
-import { NextIntlClientProvider, hasLocale, useTranslations } from 'next-intl';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
-import { routing, ROUTES } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/theme-provider';
-import { ModeToggle } from '@/components/common/mode-toggle';
-import { LanguageSwitcher } from '@/components/common/language-switcher';
-import { Link } from '@/i18n/navigation';
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
 import '@/styles/globals.css';
+import { Inter } from 'next/font/google';
+
+// Cấu hình font Inter với đầy đủ các subset hỗ trợ
+const inter = Inter({
+  subsets: ['latin', 'vietnamese', 'latin-ext'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export default async function LocaleLayout({
   children,
@@ -21,7 +28,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning className={inter.variable}>
       <head>
         <title>Bansa App</title>
         <meta name="description" content="Modern Next.js application with internationalization" />
@@ -35,46 +42,13 @@ export default async function LocaleLayout({
         >
           <NextIntlClientProvider>
             <div className="relative flex min-h-screen flex-col">
-              <header className="sticky top-0 z-40 w-full border-b bg-background">
-                <div className="container flex h-16 items-center justify-between py-4">
-                  <div className="flex items-center gap-2">
-                    <Link href={ROUTES.home} className="flex items-center space-x-2">
-                      <span className="font-bold text-xl">Bansa</span>
-                    </Link>
-                    <nav className="hidden md:flex md:items-center md:space-x-4 ml-6">
-                      <Link href={ROUTES.about} className="text-sm font-medium transition-colors hover:text-primary">
-                        <TranslatedNavItem name="about" />
-                      </Link>
-                    </nav>
-                  </div>
-                  <nav className="flex items-center gap-4">
-                    <LanguageSwitcher />
-                    <ModeToggle />
-                  </nav>
-                </div>
-              </header>
+              <Header />
               <main className="flex-1">{children}</main>
-              <footer className="border-t py-6 md:py-0">
-                <div className="container flex flex-col items-center justify-between gap-4 md:h-16 md:flex-row">
-                  <p className="text-sm text-muted-foreground">
-                    <TranslatedFooter />
-                  </p>
-                </div>
-              </footer>
+              <Footer />
             </div>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>
   );
-}
-
-function TranslatedNavItem({ name }: { name: string }) {
-  const t = useTranslations('Common.navigation');
-  return <>{t(name)}</>;
-}
-
-function TranslatedFooter() {
-  const t = useTranslations('Common.footer');
-  return <>{t('copyright')}</>;
 }

@@ -1,27 +1,50 @@
 {
-  "title": "Xin chào thế giới!",
-  "about": "Chào mừng đến với trang đơn giản của tôi. Đây là mẫu khởi đầu sạch sẽ để xây dựng thứ gì đó tuyệt vời",
-  "welcome": "Chào mừng",
-  "features": {
-    "title": "Tính năng nổi bật",
-    "featureOne": {
-      "title": "Tính năng thứ nhất",
-      "description": "Khám phá điều gì làm nên sự độc đáo của nền tảng chúng tôi",
-      "content": "Trải nghiệm tích hợp liền mạch với các công cụ và công nghệ hiện đại giúp nâng cao quy trình làm việc của bạn."
-    },
-    "featureTwo": {
-      "title": "Tính năng thứ hai",
-      "description": "Trải nghiệm hợp lý cho tất cả mọi người",
-      "content": "Được xây dựng với sự quan tâm đến khả năng tiếp cận và hiệu suất để mang lại trải nghiệm người dùng tốt nhất có thể."
-    },
-    "featureThree": {
-      "title": "Tính năng thứ ba",
-      "description": "Bắt đầu xây dựng ngay hôm nay",
-      "content": "Tài liệu và tài nguyên toàn diện của chúng tôi giúp việc phát triển trở nên dễ dàng."
-    },
-    "learnMore": "Tìm hiểu thêm"
+  "title": "Khám Phá Cuốn Sách Hay Tiếp Theo",
+  "about": "Chào mừng đến với BANSA - Điểm đến tuyệt vời cho sách, văn phòng phẩm, quà tặng, và đồ chơi. Tìm cuốn sách hoặc món quà hoàn hảo cho mọi dịp.",
+  "welcome": "Chào mừng đến BANSA",
+  "hero": {
+    "search": "Tìm kiếm sách, tác giả...",
+    "browse": "Duyệt danh mục",
+    "bestsellers": "Sách bán chạy"
+  },
+  "categories": {
+    "title": "Mua sắm theo danh mục",
+    "books": "Sách",
+    "stationery": "Văn phòng phẩm",
+    "gifts": "Quà tặng",
+    "toys": "Đồ chơi",
+    "viewAll": "Xem tất cả"
+  },
+  "featured": {
+    "title": "Xu hướng sách nổi bật",
+    "newReleases": "Mới phát hành",
+    "bestsellers": "Bán chạy nhất",
+    "awardWinners": "Đoạt giải thưởng",
+    "viewAll": "Xem tất cả"
+  },
+  "authors": {
+    "title": "Tác giả nổi tiếng",
+    "viewAll": "Xem tất cả tác giả"
+  },
+  "offers": {
+    "title": "Khuyến mãi đặc biệt",
+    "discount": "Giảm đến 50%",
+    "bundle": "Mua 2 tặng 1",
+    "viewAll": "Xem tất cả khuyến mãi"
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì",
+    "readMore": "Xem thêm đánh giá"
+  },
+  "newsletter": {
+    "title": "Cập nhật thông tin",
+    "description": "Đăng ký nhận thông tin về sách mới, ưu đãi đặc biệt và các đề xuất cá nhân hóa.",
+    "placeholder": "Địa chỉ email của bạn",
+    "button": "Đăng ký"
   },
   "cta": {
-    "aboutPage": "Trang giới thiệu"
+    "aboutPage": "Về chúng tôi",
+    "shop": "Mua ngay",
+    "viewMore": "Xem thêm"
   }
 }

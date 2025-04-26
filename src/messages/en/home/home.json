@@ -1,27 +1,50 @@
 {
-  "title": "Hello world!",
-  "about": "Welcome to my simple page. This is a clean starter template to build something amazing.",
-  "welcome": "Welcome",
-  "features": {
-    "title": "Key Features",
-    "featureOne": {
-      "title": "Feature One",
-      "description": "Discover what makes our platform unique",
-      "content": "Experience seamless integration with modern tools and technologies that enhance your workflow."
-    },
-    "featureTwo": {
-      "title": "Feature Two",
-      "description": "Streamlined experience for everyone",
-      "content": "Built with accessibility and performance in mind for the best user experience possible."
-    },
-    "featureThree": {
-      "title": "Feature Three",
-      "description": "Start building today",
-      "content": "Our comprehensive documentation and resources make development a breeze."
-    },
-    "learnMore": "Learn more"
+  "title": "Discover Your Next Great Read",
+  "about": "Welcome to BANSA - Your one-stop destination for books, stationery, gifts, and toys. Find the perfect book or gift for every occasion.",
+  "welcome": "Welcome to BANSA",
+  "hero": {
+    "search": "Search for books, authors...",
+    "browse": "Browse Categories",
+    "bestsellers": "Bestsellers"
+  },
+  "categories": {
+    "title": "Shop by Category",
+    "books": "Books",
+    "stationery": "Stationery",
+    "gifts": "Gifts",
+    "toys": "Toys",
+    "viewAll": "View All"
+  },
+  "featured": {
+    "title": "Trending Books",
+    "newReleases": "New Releases",
+    "bestsellers": "Bestsellers",
+    "awardWinners": "Award Winners",
+    "viewAll": "View All"
+  },
+  "authors": {
+    "title": "Popular Authors",
+    "viewAll": "View All Authors"
+  },
+  "offers": {
+    "title": "Special Offers",
+    "discount": "Up to 50% Off",
+    "bundle": "Buy 2 Get 1 Free",
+    "viewAll": "See All Offers"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "readMore": "Read More Reviews"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to receive updates on new releases, special offers, and personalized recommendations.",
+    "placeholder": "Your email address",
+    "button": "Subscribe"
   },
   "cta": {
-    "aboutPage": "About Page"
+    "aboutPage": "About Us",
+    "shop": "Shop Now",
+    "viewMore": "View More"
   }
 }

@@ -1,14 +1,17 @@
-import { cn } from "@/lib/utils";
+'use client';
+
+import { cn } from '@/lib/utils';
+import { Link } from '@/i18n/navigation';
+import { ROUTES } from '@/i18n/routing';
 import { cva, type VariantProps } from "class-variance-authority";
-import Link from "next/link";
 
 const logoVariants = cva(
     "font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r transition-all duration-300",
     {
         variants: {
             variant: {
-                default: "from-primary to-purple-600",
-                purple: "from-purple-500 to-purple-900",
+                default: "from-primary to-primary/70",
+                purple: "from-purple-500 to-purple-600",
                 red: "from-red-500 to-red-800",
                 yellow: "from-yellow-500 to-amber-700",
                 secondary: "from-secondary to-secondary-foreground",
@@ -29,10 +32,6 @@ const logoVariants = cva(
                 "3xl": "text-3xl",
                 "4xl": "text-4xl",
                 "5xl": "text-5xl",
-                "6xl": "text-6xl",
-                "7xl": "text-7xl",
-                "8xl": "text-8xl",
-                "9xl": "text-9xl",
             },
             animation: {
                 none: "",
@@ -47,58 +46,47 @@ const logoVariants = cva(
                 extrabold: "font-extrabold",
                 black: "font-black",
             },
-            letterSpacing: {
-                tighter: "tracking-tighter",
-                tight: "tracking-tight",
-                normal: "tracking-normal",
-                wide: "tracking-wide",
-                wider: "tracking-wider",
-                widest: "tracking-widest",
-            },
         },
         defaultVariants: {
             variant: "default",
             size: "2xl",
             animation: "none",
             fontWeight: "bold",
-            letterSpacing: "tight",
         },
     }
 );
 
-export interface LogoProps
+export interface CustomLogoProps
     extends React.HTMLAttributes<HTMLDivElement>,
     VariantProps<typeof logoVariants> {
-    asLink?: boolean;
-    href?: string;
+    asChild?: boolean;
 }
 
-const Logo = ({
+export function CustomLogo({
     className,
     variant,
     size,
     animation,
     fontWeight,
-    letterSpacing,
-    asLink = false,
-    href = "/",
+    asChild = false,
     ...props
-}: LogoProps) => {
+}: CustomLogoProps) {
     const content = (
         <div
-            className={cn(logoVariants({ variant, size, animation, fontWeight, letterSpacing }), className)}
+            className={cn(logoVariants({ variant, size, animation, fontWeight }), className)}
             {...props}
         >
             BANSA
         </div>
     );
 
-    if (asLink) {
-        return <Link href={href}>{content}</Link>;
+    if (!asChild) {
+        return (
+            <Link href={ROUTES.home} className="flex items-center gap-2">
+                {content}
+            </Link>
+        );
     }
 
     return content;
-};
-
-export { Logo, logoVariants };
-export default Logo;
+}

@@ -5,7 +5,7 @@
   "tsx": true,
   "tailwind": {
     "config": "",
-    "css": "src/app/globals.css",
+    "css": "src/styles/globals.css",
     "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
@@ -20,8 +20,7 @@
     "styles": "@/styles",
     "messages": "@/messages",
     "config": "@/config",
-    "i18n": "@/i18n",
-    "middleware": "@/middleware"
+    "i18n": "@/i18n"
     
   },
   "iconLibrary": "lucide"
