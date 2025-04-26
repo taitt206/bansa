@@ -1,5 +1,5 @@
-import Logo from "@/components/layout/Logo";
-import { ModeToggle } from "@/components/layout/ModeToggle";
+import Logo from "@/components/layout/custom-logo";
+import { ModeToggle } from "@/components/layout/mode-toggle";
 import Image from "next/image";
 
 export default function Home() {
