@@ -11,10 +11,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      VERCEL_TOKEN: kzTRoV0PYYdVkpL3XBPpWUMl
-      NODE_ENV: production
-      NEXT_DISABLE_ESLINT: 1
 
     steps:
       - name: Checkout repository
@@ -24,18 +20,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
+          cache: 'npm'
 
       - name: Create .npmrc file
         run: |
           echo "legacy-peer-deps=true" > .npmrc
 
-      - name: Install TypeScript dependencies
-        run: npm install --save-dev typescript @types/react @types/node
-
+      # Make sure TypeScript and other dev dependencies are installed
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      # Now we can run the type-check command since we've added it to package.json
       - name: Type check
         run: npm run type-check
 
