@@ -1,0 +1,27 @@
+{
+  "title": "Hello world!",
+  "about": "Welcome to my simple page. This is a clean starter template to build something amazing.",
+  "welcome": "Welcome",
+  "features": {
+    "title": "Key Features",
+    "featureOne": {
+      "title": "Feature One",
+      "description": "Discover what makes our platform unique",
+      "content": "Experience seamless integration with modern tools and technologies that enhance your workflow."
+    },
+    "featureTwo": {
+      "title": "Feature Two",
+      "description": "Streamlined experience for everyone",
+      "content": "Built with accessibility and performance in mind for the best user experience possible."
+    },
+    "featureThree": {
+      "title": "Feature Three",
+      "description": "Start building today",
+      "content": "Our comprehensive documentation and resources make development a breeze."
+    },
+    "learnMore": "Learn more"
+  },
+  "cta": {
+    "aboutPage": "About Page"
+  }
+}

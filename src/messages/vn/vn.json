@@ -1,0 +1,81 @@
+{
+  "Common": {
+    "navigation": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "backToHome": "Trở về trang chủ"
+    },
+    "theme": {
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Hệ thống"
+    },
+    "language": {
+      "switchLanguage": "Đổi ngôn ngữ",
+      "english": "Tiếng Anh",
+      "vietnamese": "Tiếng Việt"
+    },
+    "footer": {
+      "copyright": "© 2025 Bansa. Tất cả các quyền được bảo lưu.",
+      "privacyPolicy": "Chính sách bảo mật",
+      "termsOfService": "Điều khoản dịch vụ"
+    }
+  },
+  "HomePage": {
+    "title": "Xin chào thế giới!",
+    "about": "Chào mừng đến với trang đơn giản của tôi. Đây là mẫu khởi đầu sạch sẽ để xây dựng thứ gì đó tuyệt vời",
+    "welcome": "Chào mừng",
+    "features": {
+      "title": "Tính năng nổi bật",
+      "featureOne": {
+        "title": "Tính năng thứ nhất",
+        "description": "Khám phá điều gì làm nên sự độc đáo của nền tảng chúng tôi",
+        "content": "Trải nghiệm tích hợp liền mạch với các công cụ và công nghệ hiện đại giúp nâng cao quy trình làm việc của bạn."
+      },
+      "featureTwo": {
+        "title": "Tính năng thứ hai",
+        "description": "Trải nghiệm hợp lý cho tất cả mọi người",
+        "content": "Được xây dựng với sự quan tâm đến khả năng tiếp cận và hiệu suất để mang lại trải nghiệm người dùng tốt nhất có thể."
+      },
+      "featureThree": {
+        "title": "Tính năng thứ ba",
+        "description": "Bắt đầu xây dựng ngay hôm nay",
+        "content": "Tài liệu và tài nguyên toàn diện của chúng tôi giúp việc phát triển trở nên dễ dàng."
+      },
+      "learnMore": "Tìm hiểu thêm"
+    },
+    "cta": {
+      "aboutPage": "Trang giới thiệu"
+    }
+  },
+  "AboutPage": {
+    "title": "Giới thiệu về Bansa",
+    "subtitle": "Chúng tôi đang xây dựng nền tảng thế hệ tiếp theo để trao quyền cho doanh nghiệp và cá nhân.",
+    "tabs": {
+      "mission": "Sứ mệnh của chúng tôi",
+      "team": "Đội ngũ của chúng tôi",
+      "values": "Giá trị của chúng tôi"
+    },
+    "mission": {
+      "content": "Tại Bansa, sứ mệnh của chúng tôi là tạo ra những giải pháp sáng tạo giải quyết những thách thức trong thế giới thực và cải thiện cuộc sống của con người. Chúng tôi tin vào việc xây dựng công nghệ dễ tiếp cận, toàn diện và có lợi cho tất cả mọi người."
+    },
+    "team": {
+      "member": "Thành viên",
+      "position": "Chức vụ"
+    },
+    "values": {
+      "innovation": {
+        "title": "Đổi mới",
+        "description": "Chúng tôi không ngừng tìm kiếm ý tưởng và giải pháp mới để dẫn đầu."
+      },
+      "integrity": {
+        "title": "Chính trực",
+        "description": "Chúng tôi cam kết với các thực tiễn đạo đức và minh bạch."
+      },
+      "collaboration": {
+        "title": "Hợp tác",
+        "description": "Chúng tôi tin rằng những điều tuyệt vời xảy ra khi mọi người làm việc cùng nhau."
+      }
+    }
+  }
+}

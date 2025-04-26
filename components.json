@@ -17,7 +17,11 @@
     "layout": "@/components/layout",
     "lib": "@/lib",
     "hooks": "@/hooks",
-    "styles": "@/styles"
+    "styles": "@/styles",
+    "messages": "@/messages",
+    "config": "@/config",
+    "i18n": "@/i18n",
+    "middleware": "@/middleware"
     
   },
   "iconLibrary": "lucide"

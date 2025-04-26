@@ -1,0 +1,81 @@
+{
+  "Common": {
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "backToHome": "Back to Home"
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "switchLanguage": "Switch Language",
+      "english": "English",
+      "vietnamese": "Vietnamese"
+    },
+    "footer": {
+      "copyright": "© 2025 Bansa. All rights reserved.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Welcome to my simple page. This is a clean starter template to build something amazing.",
+    "welcome": "Welcome",
+    "features": {
+      "title": "Key Features",
+      "featureOne": {
+        "title": "Feature One",
+        "description": "Discover what makes our platform unique",
+        "content": "Experience seamless integration with modern tools and technologies that enhance your workflow."
+      },
+      "featureTwo": {
+        "title": "Feature Two",
+        "description": "Streamlined experience for everyone",
+        "content": "Built with accessibility and performance in mind for the best user experience possible."
+      },
+      "featureThree": {
+        "title": "Feature Three",
+        "description": "Start building today",
+        "content": "Our comprehensive documentation and resources make development a breeze."
+      },
+      "learnMore": "Learn more"
+    },
+    "cta": {
+      "aboutPage": "About Page"
+    }
+  },
+  "AboutPage": {
+    "title": "About Bansa",
+    "subtitle": "We're building the next generation platform to empower businesses and individuals.",
+    "tabs": {
+      "mission": "Our Mission",
+      "team": "Our Team",
+      "values": "Our Values"
+    },
+    "mission": {
+      "content": "At Bansa, our mission is to create innovative solutions that address real-world challenges and improve people's lives. We believe in building technology that's accessible, inclusive, and beneficial for everyone."
+    },
+    "team": {
+      "member": "Team Member",
+      "position": "Position"
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "We constantly seek new ideas and solutions to stay ahead."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We're committed to ethical practices and transparency."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe great things happen when people work together."
+      }
+    }
+  }
+}

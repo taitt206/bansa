@@ -1,0 +1,30 @@
+{
+  "title": "About Bansa",
+  "subtitle": "We're building the next generation platform to empower businesses and individuals.",
+  "tabs": {
+    "mission": "Our Mission",
+    "team": "Our Team",
+    "values": "Our Values"
+  },
+  "mission": {
+    "content": "At Bansa, our mission is to create innovative solutions that address real-world challenges and improve people's lives. We believe in building technology that's accessible, inclusive, and beneficial for everyone."
+  },
+  "team": {
+    "member": "Team Member",
+    "position": "Position"
+  },
+  "values": {
+    "innovation": {
+      "title": "Innovation",
+      "description": "We constantly seek new ideas and solutions to stay ahead."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "description": "We're committed to ethical practices and transparency."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "We believe great things happen when people work together."
+    }
+  }
+}
