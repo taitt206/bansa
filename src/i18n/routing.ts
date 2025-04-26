@@ -48,7 +48,7 @@ const routes: Record<string, RouteConfig> = {
 const generatePathnames = () => {
   const pathnames: Record<string, string | Record<Locale, string>> = {};
 
-  Object.entries(routes).forEach(([_, route]) => {
+  Object.entries(routes).forEach(([key, route]) => {
     const { path, translations } = route;
 
     // If we have a default translation that applies to all locales

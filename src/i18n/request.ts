@@ -68,7 +68,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   }
 
   // Load all translation files dynamically
-  const messages: Record<string, any> = {};
+  const messages: Record<string, Record<string, unknown>> = {};
 
   await Promise.all(
     modules.map(async ({ namespace, folder }) => {

@@ -8,8 +8,6 @@ import React from 'react';
 import { Separator } from '@/components/ui/separator';
 
 export function Header() {
-    const t = useTranslations('Common.navigation');
-
     return (
         <header className="sticky top-0 z-40 w-full bg-background/85 backdrop-blur-sm border-b shadow-sm">
             <div className="container mx-auto px-4 flex h-16 items-center justify-between max-w-6xl relative">
