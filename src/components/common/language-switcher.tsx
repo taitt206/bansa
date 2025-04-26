@@ -1,7 +1,6 @@
 'use client';
 
 import { usePathname, useRouter } from '@/i18n/navigation';
-import { routing } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
 import {

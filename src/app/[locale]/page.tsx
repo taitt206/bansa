@@ -2,16 +2,15 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { ROUTES } from '@/i18n/routing';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import {
   ArrowRight, BookOpen, GiftIcon, Search, ShoppingCart,
-  Star, TrendingUp, BookMarked, PencilRuler, Puzzle, Users
+  Star, PencilRuler, Puzzle
 } from 'lucide-react';
-import Autoplay from "embla-carousel-autoplay"
 
 // Dummy data for demo purposes
 const featuredBooks = [
