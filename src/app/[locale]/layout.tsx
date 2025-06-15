@@ -7,7 +7,6 @@ import { Footer } from '@/components/layout/footer';
 import '@/styles/globals.css';
 import { Inter } from 'next/font/google';
 
-// Cấu hình font Inter với đầy đủ các subset hỗ trợ
 const inter = Inter({
   subsets: ['latin', 'vietnamese', 'latin-ext'],
   display: 'swap',
